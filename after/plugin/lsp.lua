@@ -34,3 +34,10 @@ end)
 
 
 lsp.setup()
+
+
+--vim.cmd [[autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {})]]
+vim.diagnostic.config({
+    virtual_text = true
+})
+

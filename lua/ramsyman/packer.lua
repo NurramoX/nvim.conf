@@ -4,7 +4,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use { 'mofiqul/dracula.nvim', as = 'dracula' }
-
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use { "bluz71/vim-nightfly-colors", as = "nightfly" }
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons' }
